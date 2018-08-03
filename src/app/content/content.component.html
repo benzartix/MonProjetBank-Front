@@ -19,7 +19,7 @@
           <td>{{c.prorietaire}}</td>
           <td>{{c.solde}}</td>
           <td class="text-center">
-            <button type="button" class="btn btn-sm btn-danger">Details</button>
+            <button type="button" class="btn btn-sm btn-danger" [routerLink] ="['/comptes/',c.numero]">Details</button>
             <button type="button" class="btn btn-sm btn-warning ml-2">Edit</button>
             <button type="button" class="btn btn-sm btn-default ml-2">Delete</button>
           </td>
